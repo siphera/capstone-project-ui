@@ -1,13 +1,14 @@
 import NavBar from './components/NavBar'
+import CustomerCheckout from './components/CustomerCheckout'
+import PurchasePage from './components/PurchasePage'
 import './App.css';
 
 function App() {
   return (
     <div className="container">
-      <NavBar />
-      <header className="App-header">
-        <h1>POS system</h1>
-      </header>
+      {/* <NavBar /> */}
+      <PurchasePage />
+      <CustomerCheckout />
       
     </div>
   );
